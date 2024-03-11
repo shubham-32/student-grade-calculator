@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Grade Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <scrpit src="script.js"></scrpit>
+</head>
+<body>
+  <div class="container">
+    <h1>Student Grade Calculator📑</h1>
+    <div class="input-container">
+      <label for="english">English:</label>
+      <input type="number" id="english" min="0" max="100">
+    </div>
+    <div class="input-container">
+      <label for="hindi">Hindi:</label>
+      <input type="number" id="hindi" min="0" max="100">
+    </div>
+    <div class="input-container">
+      <label for="maths">Maths:</label>
+      <input type="number" id="maths" min="0" max="100">
+    </div>
+    <div class="input-container">
+      <label for="science">Science:</label>
+      <input type="number" id="science" min="0" max="100">
+    </div>
+    <div class="input-container">
+      <label for="computer">Computer Science:</label>
+      <input type="number" id="computer" min="0" max="100">
+    </div>
+    <button onclick="calculateGrade()">Calculate</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
